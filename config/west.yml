@@ -9,5 +9,6 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+      west build -b proton_c -- -DSHIELD=nice_nano_v2
   self:
     path: config
